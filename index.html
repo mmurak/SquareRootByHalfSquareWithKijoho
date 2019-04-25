@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="icon" href="tutor/sorobanred.jpeg">
+<title>tutor</title>
+<script language="JavaScript" src="./tutor/sbs-j.js"></script>
+</script>
+</head>
+<body onLoad="document.input.text.focus();">
+<p>
+  <form name="input" onsubmit="main();return false;">
+  <input type="text" name="text" value="" id="expression" size="12" autocomplete="off">
+  <input type="button" value="次へ" onclick="main();">
+  <input type="button" value="リセット" onclick="resetAll();">
+  <textarea id="displayArea" rows="25" cols="100" style="font-family:Monaco"></textarea>
+  </form>
+</p>
+</body>
+</html>
